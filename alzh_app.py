@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from keras.models import load_model
 
 # Load your model
-model = load_model('mri_classification_model.h5')
+model = load_model('mobilenet_mri_model.h5')
 
 input_shape = (224, 224)
 num_classes = 4
